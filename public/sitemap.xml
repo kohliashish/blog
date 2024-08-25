@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kohliashish.github.io/portfolio/blog/</loc>
+    <lastmod>2024-08-12T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/</loc>
+    <lastmod>2024-08-12T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/blog/building-an-image-similarity-model-with-keras-my-bellsprout-moment/</loc>
+    <lastmod>2021-08-21T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/categories/</loc>
+    <lastmod>2021-08-21T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/categories/data-science/</loc>
+    <lastmod>2021-08-21T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/categories/image-classification/</loc>
+    <lastmod>2021-08-21T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/categories/analytics/</loc>
+    <lastmod>2020-01-26T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://kohliashish.github.io/portfolio/blog/machine-learning-using-sql/</loc>
+    <lastmod>2020-01-26T12:00:00-07:00</lastmod>
+  </url>
+</urlset>

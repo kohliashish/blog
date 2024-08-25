@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: kohliashish/portfolio
+  branch: main # Branch to update (often 'main' or 'master')
+  auth_type: implicit  # Auth type for OAuth
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  client_id: Ov23liMGZ3JMzQt5ZVF0
+  redirect_uri: https://kohliashish.github.io/portfolio/admin/  # Replace with your actual redirect URI
+  cms_label_prefix: decap-cms/
+
+media_folder: "static/images/uploads" # Folder where uploaded files will go
+public_folder: "/images/uploads" # Folder where uploaded files will be served from
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }

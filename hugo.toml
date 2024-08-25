@@ -1,0 +1,23 @@
+baseURL = 'https://kohliashish.github.io/portfolio/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+
+[permalinks]
+  blog = "/blog/:slug/"
+  posts = "/posts/:year/:month/:day/:slug/"
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+[taxonomies]
+category = "categories"

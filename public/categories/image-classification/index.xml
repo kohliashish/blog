@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Classification on My New Hugo Site</title>
+    <link>https://kohliashish.github.io/portfolio/categories/image-classification/</link>
+    <description>Recent content in Image Classification on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Aug 2021 12:00:00 -0700</lastBuildDate>
+    <atom:link href="https://kohliashish.github.io/portfolio/categories/image-classification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Image Similarity Model with Keras: My Bellsprout Moment</title>
+      <link>https://kohliashish.github.io/portfolio/blog/building-an-image-similarity-model-with-keras-my-bellsprout-moment/</link>
+      <pubDate>Sat, 21 Aug 2021 12:00:00 -0700</pubDate>
+      <guid>https://kohliashish.github.io/portfolio/blog/building-an-image-similarity-model-with-keras-my-bellsprout-moment/</guid>
+      <description>Introduction In this project, I set out to explore image similarity using deep learning. Leveraging the power of Keras, I aimed to detect similarities between images using a Pokémon image dataset from Kaggle. The idea was simple: take a pre-trained ResNet50 model, process Pokémon images into their vector forms, and then compare these vectors with an image of myself. The results? You&amp;rsquo;ll see soon enough.&#xA;The Dataset and Approach For this project, I used a Pokémon images dataset available on Kaggle.</description>
+    </item>
+  </channel>
+</rss>
