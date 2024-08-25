@@ -1,6 +1,6 @@
 baseURL = 'https://kohliashish.github.io/portfolio/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ashish Kohli'
 
 
 [permalinks]
