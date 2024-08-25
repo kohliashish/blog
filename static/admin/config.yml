@@ -1,12 +1,7 @@
 backend:
   name: github
-  repo: kohliashish/portfolio
   branch: main # Branch to update (often 'main' or 'master')
-  auth_type: implicit  # Auth type for OAuth
-  client_id: Ov23liMGZ3JMzQt5ZVF0
-  redirect_uri: https://kohliashish.github.io/portfolio/admin/  # Replace with your actual redirect URI
-  cms_label_prefix: decap-cms/
-
+  
 media_folder: "static/images/uploads" # Folder where uploaded files will go
 public_folder: "/images/uploads" # Folder where uploaded files will be served from
 
