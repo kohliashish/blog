@@ -1,8 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main  # Change this to your default branch
   repo: kohliashish/portfolio # Replace with your GitHub repository
-  api_root: https://api.github.com
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: decap-cms/
