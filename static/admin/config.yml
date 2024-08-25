@@ -1,6 +1,11 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (often 'main' or 'master')
+  name: github
+  branch: main  # Change this to your default branch
+  repo: kohliashish/portfolio # Replace with your GitHub repository
+  api_root: https://api.github.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  cms_label_prefix: decap-cms/
   
 media_folder: "static/images/uploads" # Folder where uploaded files will go
 public_folder: "/images/uploads" # Folder where uploaded files will be served from
