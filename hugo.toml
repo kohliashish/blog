@@ -6,6 +6,7 @@ title = 'Ashish Kohli'
 [permalinks]
   blog = "/blog/:slug/"
   posts = "/posts/:year/:month/:day/:slug/"
+  gallery = "/gallery"
 
 [module]
   [module.hugoVersion]

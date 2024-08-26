@@ -24,7 +24,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon-16x16.png">
     <link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 
@@ -66,9 +65,10 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="about.html">A Bit About Me</a></li>
-                        <li><a href="services.html">Product Faves & Fixes</a></li>
-                        <li><a href="blog">Musings</a></li>
+                        <li><a href="{{ .Site.BaseURL }}about.html">A Bit About Me</a></li>
+                        <li><a href="{{ .Site.BaseURL }}services.html">Product Faves & Fixes</a></li>
+                        <li><a href="{{ .Site.BaseURL }}blog">Musings</a></li>
+                        <li><a href="{{ .Site.BaseURL }}gallery">Gallery</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
@@ -565,18 +565,6 @@
     ================================================== -->
     <script src="{{ .Site.BaseURL }}js/plugins.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js"></script>
-
-    <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      </script>
 
 </body>
 </html>
