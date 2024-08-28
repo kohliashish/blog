@@ -54,7 +54,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="{{ .Site.BaseURL }}index.html">
                             <img src="images/logo.svg" alt="Homepage">
                         </a>
                     </div>
@@ -72,7 +72,7 @@
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Get in touch!</a>                        
+                        <a href="{{ .Site.BaseURL }}contact.html" class="btn btn--primary s-header__contact-btn">Get in touch!</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -509,6 +509,7 @@
                         <li><a href="{{ .Site.BaseURL }}services.html">Product Faves & Fixes</a></li>
                         <li><a href="{{ .Site.BaseURL }}blog">Musings</a></li>
                         <li><a href="{{ .Site.BaseURL }}about.html">A Bit About Me</a></li>
+                        <li><a href="{{ .Site.BaseURL }}gallery">Gallery</a></li>
                         <li><a href="{{ .Site.BaseURL }}contact.html">Get in touch</a></li>
                     </ul>
                 </div>
@@ -544,7 +545,7 @@
                     </div>
                     <div class="column mob-12 md-6">
                         <p class="ss-copyright">
-                            <span>© Copyright Ashsh Kohli 2024</span> 
+                            <span>© Copyright Ashish Kohli 2024</span> 
                             <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                         </p>
                     </div>
