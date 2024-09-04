@@ -5,7 +5,7 @@ title = 'Ashish Kohli'
 
 [permalinks]
   blog = "/blog/:slug/"
-  posts = "/posts/:year/:month/:day/:slug/"
+  product = "/product/:slug/"
   gallery = "/gallery"
 
 [module]
