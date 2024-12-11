@@ -97,9 +97,9 @@
                         <div class="s-intro__content-text">
                             <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Ashish</div>
                             <h1 class="s-intro__content-title">
-                            Currently working on <br>
-                            turning complex tech to <br>
-                            seamless experiences, <br>
+                            Currently working on 
+                            turning complex tech to 
+                            seamless experiences, 
                             one product at a time. <br>
                             </h1>
                         </div> <!-- s-intro__content-text -->
@@ -486,7 +486,7 @@
                                 </h3>
                             </div>
                             <div class="blog-card__text">
-                                <p> {{ .Summary }} </p>
+                                <p> {{ .Summary | plainify }} </p>
                             </div>
                         </div> <!-- end blog-card -->
                         {{end}}
