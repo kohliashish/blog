@@ -201,12 +201,12 @@
                 <div class="xl-6 tab-12 column s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Product Faves & Fixes</a></li>
-                        <li><a href="blog">Musings</a></li>
-                        <li><a href="about.html">A Bit About Me</a></li>
-                        <li><a href="gallery">Gallery</a></li>
-                        <li><a href="contact.html">Get in touch</a></li>
+                        <li><a href="{{ .Site.BaseURL }}index.html">Home</a></li>
+                        <li><a href="{{ .Site.BaseURL }}product">Product Faves & Fixes</a></li>
+                        <li><a href="{{ .Site.BaseURL }}blog">Musings</a></li>
+                        <li><a href="{{ .Site.BaseURL }}about.html">A Bit About Me</a></li>
+                        <li><a href="{{ .Site.BaseURL }}gallery">Gallery</a></li>
+                        <li><a href="{{ .Site.BaseURL }}contact.html">Get in touch</a></li>
                     </ul>
                 </div>
 
@@ -241,16 +241,19 @@
                     </div>
                     <div class="column mob-12 md-6">
                         <p class="ss-copyright">
-                            <span>© Copyright Ashish Kohli 2024</span> 
-                            <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                            <div class row>
+                                <span>© Copyright Ashish Kohli 2024</span> 
+                            </div>
+                            <div class row>
+                                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                            </div>
                         </p>
+                        <div class="ss-go-top">
+                            <a class="smoothscroll" title="Back to Top" href="#top">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                            </a>
+                        </div> <!-- end ss-go-top -->
                     </div>
-
-                    <div class="ss-go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                        </a>
-                    </div> <!-- end ss-go-top -->
                 </div>
             </div>
             

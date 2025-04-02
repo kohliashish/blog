@@ -4359,10 +4359,10 @@ td:last-child {
  * ## go top
  * ------------------------------------------------------------------- */
 .ss-go-top {
-	z-index : 2;
-	position: absolute;
-	bottom  : -0.8rem;
-	right   : var(--gutter);
+	position: relative;
+	bottom  : auto;
+	right   : auto;
+	margin-top: var(--vspace-1);
 }
 
 .ss-go-top a {

@@ -348,12 +348,12 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
+                        <li><a href="{{ .Site.BaseURL }}index.html">Home</a></li>
+                        <li><a href="{{ .Site.BaseURL }}product">Product Faves & Fixes</a></li>
+                        <li><a href="{{ .Site.BaseURL }}blog">Musings</a></li>
+                        <li><a href="{{ .Site.BaseURL }}about.html">A Bit About Me</a></li>
+                        <li><a href="{{ .Site.BaseURL }}gallery">Gallery</a></li>
+                        <li><a href="{{ .Site.BaseURL }}contact.html">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
@@ -403,18 +403,21 @@
                         </li>
                     </ul> <!-- end s-footer__social -->
                 </div>
-                <div class="column xl-6 lg-12">
+                <div class="column mob-12 md-6">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                        <div class row>
+                            <span>© Copyright Ashish Kohli 2024</span> 
+                        </div>
+                        <div class row>
+                            <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                        </div>
                     </p>
+                    <div class="ss-go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                        </a>
+                    </div> <!-- end ss-go-top -->
                 </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                    </a>
-                </div> <!-- end ss-go-top -->
             </div>
             
         </footer> <!-- end s-footer -->
