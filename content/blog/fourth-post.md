@@ -53,4 +53,22 @@ While everyone is busy chasing social fame from the likes of TikTok & Instagram,
 >}}
  are making millions from this simple, old-school medium powered by the latest technology.
 
+
+### References:
+
+1. DocBarRaiser – Weasel Words: https://docbarraiser.com/what-the-heck-are-weasel-words/
+2. SocialInsider – Instagram View Rates: https://www.socialinsider.io/blog/view-rate-of-instagram-reels-vs-stories
+3. SmartInsights – Email Marketing Stats: https://www.smartinsights.com/email-marketing/email-communications-strategy/statistics-sources-for-email-marketing/
+4. The New York Times – Newsletter Subscription Stats: https://www.nytco.com/press/the-new-york-times-sees-record-newsletter-subscriptions-and-open-rates/
+5. Wired – Paywall Success: https://www.wired.com/story/wired-paywall-one-year-later/
+6. Reuters Institute – Digital News Report (2022): https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2022-06/Digital_News-Report_2022.pdf
+7. Morning Brew – Company Overview: https://www.morningbrew.com/
+8. Substack User & Revenue Stats – Backlinko: https://backlinko.com/substack-users
+9. Paved – Top 20 Biggest Newsletters: https://www.paved.com/blog/the-worlds-biggest-newsletters/
+10. SmartInsights – Email ROI & List Building: https://www.smartinsights.com/email-marketing/how-to-build-your-email-list-from-the-ground-up/
+11. Jordan Peterson Quote on Writing: https://x.com/jordanbpeterson/status/1413182150984208394?lang=en
+12. Forbes – Blank Page Problem & AI: https://www.forbes.com/councils/forbesagencycouncil/2023/07/20/generative-ai-and-solving-the-blank-page-problem/
+13. Beehiiv – Newsletter Platform: https://product.beehiiv.com/
+14. ConvertKit – Email Tools: https://kit.com/
+
  {{< responsive-image src="/images/post-images/post-signature.png" alt="A heart icon with the text Proudly written by a human" max-width="10%" >}}
